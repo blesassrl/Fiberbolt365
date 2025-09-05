@@ -1,11 +1,8 @@
-import Link from "next/link";
-
-export default function HomePage() {
+export default function Home() {
   return (
-    <main className="space-y-6">
-      <h1 className="text-3xl font-bold">Benvenuto</h1>
-      <p>Vai alla pagina per verificare la copertura fibra:</p>
-      <Link href="/coverage" className="underline">Verifica copertura</Link>
+    <main>
+      <h1>Verifica Copertura Fibra</h1>
+      <p>Benvenuto! Inserisci il tuo indirizzo per verificare la copertura.</p>
     </main>
-  );
+  )
 }

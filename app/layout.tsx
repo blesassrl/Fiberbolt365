@@ -1,14 +1,10 @@
-export const metadata = {
-  title: "Verifica Copertura Fibra",
-  description: "Controlla la copertura fibra al tuo indirizzo",
-};
+import './globals.css'
+import { ReactNode } from 'react'
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="it">
-      <body>
-        <div className="container">{children}</div>
-      </body>
+      <body>{children}</body>
     </html>
-  );
+  )
 }
